@@ -20,7 +20,7 @@ public class ArticleController {
     @RequestMapping(method= RequestMethod.POST)
     public Result save(@RequestBody Article article){
         articleService.save(article);
-        return new Result(true, StatusCode.OK, "操作成功");
+        return new Result(true, StatusCode.OK, "操作成功111");
     }
     @RequestMapping(value="/search/{keywords}/{page}/{size}",method=
             RequestMethod.GET)
