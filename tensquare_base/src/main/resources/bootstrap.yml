@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: base    # 指定读取配置的前缀  base-dev.yml
+      profile: dev # 指定读取配置的后缀   base-dev.yml
+      label: master # 指定从哪个分支读取
+      uri: http://127.0.0.1:12000 #配置中心路径

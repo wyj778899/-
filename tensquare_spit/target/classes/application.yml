@@ -1,0 +1,12 @@
+server: 
+  port: 9006
+spring: 
+  application:  
+    name: tensquare-spit #指定服务名
+  data:
+    mongodb:
+      host: 192.168.40.128 #指定mongo的主机地址
+      database: spitdb #指定要操作的数据库
+      port: 27017 #可选,默认就是27017
+  redis:
+    host: 192.168.40.128
